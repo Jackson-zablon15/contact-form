@@ -1,0 +1,35 @@
+@import "tailwindcss";
+html,
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+body{
+    font-family: Karla, sans-serif;
+    background-color: var(--color-Green_lighter);
+    display: flex;
+    justify-content: center;
+}
+@theme {
+    --color-Red: hsl(0, 66%, 54%);
+    --color-Green_lighter: hsl(148, 38%, 91%);
+    --color-Green_medium: hsl(169, 82%, 27%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Grey_medium: hsl(186, 15%, 59%);
+    --color-Grey_darker: hsl(187, 24%, 22%);
+}
+
+@layer components {
+    .wrapper{
+        @apply flex flex-col mb-5;
+    }
+    .labels{
+        @apply text-[0.8rem] font-normal text-Grey_darker ;
+    }
+    .inputs{
+        @apply border border-Grey_medium w-[20rem] h-[3rem] rounded-sm;
+    }
+    .error{
+        @apply text-Red text-[0.8rem]
+    }
+}
