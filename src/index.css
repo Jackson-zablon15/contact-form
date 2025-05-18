@@ -2,13 +2,14 @@
 html,
 body{
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
 }
 body{
     font-family: Karla, sans-serif;
     background-color: var(--color-Green_lighter);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 @theme {
     --color-Red: hsl(0, 66%, 54%);
