@@ -50,7 +50,7 @@ export default function App() {
   return(
     <div className="my-8">
     {success && 
-    <div className="w-113 mx-auto p-6 bg-Grey_darker rounded-sm mt-2">
+    <div className="w-113 mx-auto p-6 bg-Grey_darker rounded-sm">
       <div className="flex gap-2">
         <img 
         src={successIcon}
