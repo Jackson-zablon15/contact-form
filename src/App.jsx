@@ -48,7 +48,7 @@ export default function App() {
     }
 
   return(
-    <div className="my-8">
+    <div className="bg-Green_lighter font-[karla] flex flex-col justify-center items-center min-h-screen py-6">
     {success && 
     <div className="w-113 mx-auto p-6 bg-Grey_darker rounded-sm">
       <div className="flex gap-2">
@@ -67,7 +67,7 @@ export default function App() {
       </div>}
     <form
     onSubmit={handleSubmit} 
-    className="bg-White w-full max-w-185 flex justify-center p-6 rounded-2xl shadow-l sm:p-8">
+    className="bg-White w-full max-w-85 sm:max-w-185 flex justify-center p-6 rounded-2xl shadow-l sm:p-8">
       <div>
 
       <h1 
